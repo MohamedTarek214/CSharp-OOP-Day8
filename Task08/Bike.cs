@@ -8,6 +8,7 @@ namespace Task08
 {
     public class Bike : IVehicle
     {
+        #region Methods
         public void StartEngine()
         {
             Console.WriteLine("Bike Is Started");
@@ -16,6 +17,7 @@ namespace Task08
         public void StopEngine()
         {
             Console.WriteLine("Bike Is Stoped");
-        }
+        } 
+        #endregion
     }
 }

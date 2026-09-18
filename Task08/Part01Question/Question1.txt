@@ -11,3 +11,9 @@ Abstract = > You use this when you have a group of classes that share an abstrac
 and you want to share code, state, or behavior among them
 while allowing each class to customize part of the behavior in its own way
 -----------------------------------------------------------------------------------------------------
+Question03: How does implementing IComparable improve flexibility in sorting?  
+IComparable allows the class itself to define how its objects are compared and sorted
+-----------------------------------------------------------------------------------------------------
+Question04: What is the primary purpose of a copy constructor in C#?
+The primary purpose of a copy constructor is to create a new object by copying data from an existing object.
+-----------------------------------------------------------------------------------------------------

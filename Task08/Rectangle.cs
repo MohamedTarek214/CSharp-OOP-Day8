@@ -8,17 +8,21 @@ namespace Task08
 {
     public class Rectangle : Shape
     {
+        #region Propertes
         public double Width { get; set; }
         public double Height { get; set; }
-        public Rectangle(double width, double height) 
+        #endregion
+        #region Methods
+        public Rectangle(double width, double height)
         {
             Width = width;
-            Height = height; 
+            Height = height;
         }
         public override double GetArea()
-        { 
+        {
             return Width * Height;
-        }
+        } 
+        #endregion
 
     }
 }
