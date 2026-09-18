@@ -98,13 +98,13 @@
             #region Problem6 
             //Account account = new Account();
 
-            //account.AccountIdProperty = 1001;
-            //account.AccountHolderProperty = "Mohamed";
-            //account.BalanceProperty = 5000;
+            //account.AccountId = 1001;
+            //account.AccountHolder = "Mohamed";
+            //account.Balance = 5000;
 
-            //Console.WriteLine($"Account ID: {account.AccountIdProperty}");
-            //Console.WriteLine($"Account Holder: {account.AccountHolderProperty}");
-            //Console.WriteLine($"Balance: {account.BalanceProperty}"); 
+            //Console.WriteLine($"Account ID: {account.AccountId}");
+            //Console.WriteLine($"Account Holder: {account.AccountHolder}");
+            //Console.WriteLine($"Balance: {account.Balance}"); 
             #endregion
 
             #endregion

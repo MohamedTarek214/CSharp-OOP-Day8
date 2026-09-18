@@ -9,45 +9,45 @@ namespace Task08
     public struct Account
     {
         #region Attributes
-        private int AccountId;
-        private string AccountHolder;
-        private decimal Balance;
+        private int accountId;
+        private string accountHolder;
+        private decimal balance;
         #endregion
 
         #region Properties
-        public int AccountIdProperty
+        public int AccountId
         {
             get
             {
-                return AccountId;
+                return accountId;
             }
             set
             {
-                AccountId = value;
+                accountId = value;
             }
         }
 
-        public string AccountHolderProperty
+        public string AccountHolder
         {
             get
             {
 
-                return AccountHolder;
+                return accountHolder;
             }
             set
             {
-                AccountHolder = value;
+                accountHolder = value;
             }
         }
 
-        public decimal BalanceProperty
+        public decimal Balance
         {
             get
             {
-                return Balance;
+                return balance;
             }
             set
-            { Balance = value; }
+            { balance = value; }
         } 
         #endregion
 
