@@ -1,1 +1,13 @@
-﻿
+﻿Question01: Why is it better to code against an interface rather than a concrete class? 
+because it reduces coupling between classes and makes the code more flexible and maintainable.
+It also supports polymorphism and makes unit testing easier
+-----------------------------------------------------------------------------------------------------
+Question02: When should you prefer an abstract class over an interface?  
+
+interface = > You use it when you have a contract or capability that you want to enforce across a set of classes
+These classes might be completely different from one another, or they might share a logical relationship.
+
+Abstract = > You use this when you have a group of classes that share an abstraction or a common logical relationship
+and you want to share code, state, or behavior among them
+while allowing each class to customize part of the behavior in its own way
+-----------------------------------------------------------------------------------------------------
